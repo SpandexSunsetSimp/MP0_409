@@ -1,1 +1,37 @@
 /* Your CSS here. */
+.card {
+    height: 700px;
+    background-color: #1c252a;
+    position: relative;
+    border-radius: 30px;
+}
+
+.pic {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+a {
+    color: white;
+    background-color: lightslategrey;
+    font-weight: bold;
+}
+
+.pic img {
+    height: 150px;
+    width: 150px;
+    border: 10px solid mediumspringgreen;
+    border-radius: 10px;
+}
+
+.content {
+    color: aliceblue;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    text-align: center;
+}
